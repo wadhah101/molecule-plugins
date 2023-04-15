@@ -29,12 +29,6 @@ jobs:
             lint
             pkg
             devel
-      - name: Prepare templates for tox
-        run: |
-          pip install molecule "molecule-plugins[azure,docker,gce]"
-          molecule init role templates.azureplugin  --driver-name=azure
-          molecule init role templates.dockerplugin --driver-name=docker
-          molecule init role templates.gceplugin    --driver-name=gce
 
   build:
     name: ${{ matrix.name }}
