@@ -29,7 +29,6 @@ jobs:
             lint
             pkg
             devel
-
   build:
     name: ${{ matrix.name }}
     runs-on: ubuntu-22.04
