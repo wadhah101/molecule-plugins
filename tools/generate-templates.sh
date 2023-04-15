@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -euo pipefail
+
 rm -rf templates || true
 mkdir -p templates
 cd templates || exit 1
