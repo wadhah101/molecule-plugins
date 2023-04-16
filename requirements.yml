@@ -9,4 +9,4 @@ collections:
   - name: azure.azcollection
     version: ">=1,<2"
   - name: community.crypto
-    version: ">=2,<3"
+    version: "1.8.0"
