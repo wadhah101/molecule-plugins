@@ -1,35 +1,3 @@
-src/molecule_plugins/gce/playbooks/tasks/create_windows_instance.yml yaml[line-length]
-
-src/molecule_plugins/podman/playbooks/create.yml yaml[line-length]
-
-test/azure/scenarios/driver/azure/molecule/multi-node/prepare.yml fqcn[action-core]
-
-test/gce/scenarios/linux/converge.yml fqcn[action-core]
-test/gce/scenarios/linux/create.yml fqcn[action-core]
-test/gce/scenarios/linux/destroy.yml fqcn[action-core]
-test/gce/scenarios/linux/handlers/main.yml fqcn[action-core]
-test/gce/scenarios/linux/handlers/main.yml yaml[line-length]
-test/gce/scenarios/linux/molecule.yml yaml[line-length]
-test/gce/scenarios/linux/prepare.yml fqcn[action-core]
-test/gce/scenarios/linux/tasks/create_linux_instance.yml fqcn[action-core]
-test/gce/scenarios/linux/tasks/create_linux_instance.yml yaml[line-length]
-test/gce/scenarios/linux/tasks/create_windows_instance.yml fqcn[action-core]
-test/gce/scenarios/linux/tasks/create_windows_instance.yml yaml[line-length]
-test/gce/scenarios/linux/verify.yml fqcn[action-core]
-
-test/gce/scenarios/windows/converge.yml fqcn[action-core]
-test/gce/scenarios/windows/create.yml fqcn[action-core]
-test/gce/scenarios/windows/destroy.yml fqcn[action-core]
-test/gce/scenarios/windows/handlers/main.yml fqcn[action-core]
-test/gce/scenarios/windows/handlers/main.yml yaml[line-length]
-test/gce/scenarios/windows/molecule.yml yaml[line-length]
-test/gce/scenarios/windows/prepare.yml fqcn[action-core]
-test/gce/scenarios/windows/tasks/create_linux_instance.yml fqcn[action-core]
-test/gce/scenarios/windows/tasks/create_linux_instance.yml yaml[line-length]
-test/gce/scenarios/windows/tasks/create_windows_instance.yml fqcn[action-core]
-test/gce/scenarios/windows/tasks/create_windows_instance.yml yaml[line-length]
-test/gce/scenarios/windows/verify.yml fqcn[action-core]
-
 test/roles/azureplugin/meta/main.yml meta-incorrect
 test/roles/azureplugin/meta/main.yml meta-no-info
 test/roles/azureplugin/meta/main.yml schema[meta]
