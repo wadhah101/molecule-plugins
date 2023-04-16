@@ -5,13 +5,5 @@ exclude_paths:
   - requirements.yml
   - src/**/cookiecutter/{{*
 
-skip_list:
-  # Temporary skips made during migration
-  - args[module]
-  - experimental
-  - fqcn-builtins
-  - var-spacing
-  - yaml[line-length]
-
 mock_modules:
   - vagrant # only until we publish community.vagrant collection
