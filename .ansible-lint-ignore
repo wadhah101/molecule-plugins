@@ -1,8 +1,3 @@
-src/molecule_plugins/docker/playbooks/create.yml yaml[line-length]
-src/molecule_plugins/docker/playbooks/destroy.yml yaml[line-length]
-
-src/molecule_plugins/gce/playbooks/handlers/main.yml yaml[line-length]
-src/molecule_plugins/gce/playbooks/tasks/create_linux_instance.yml yaml[line-length]
 src/molecule_plugins/gce/playbooks/tasks/create_windows_instance.yml yaml[line-length]
 
 src/molecule_plugins/podman/playbooks/create.yml yaml[line-length]
